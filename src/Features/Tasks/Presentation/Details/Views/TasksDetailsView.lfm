@@ -1,0 +1,242 @@
+object frTasksDetails: TfrTasksDetails
+  Left = 371
+  Height = 377
+  Top = 250
+  Width = 451
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Tarefa'
+  ClientHeight = 377
+  ClientWidth = 451
+  Position = poMainFormCenter
+  LCLVersion = '4.8.0.0'
+  OnShow = FormShow
+  object pnHeader: TPanel
+    Left = 0
+    Height = 80
+    Top = 0
+    Width = 451
+    Align = alTop
+    BevelOuter = bvNone
+    ClientHeight = 80
+    ClientWidth = 451
+    Color = 13240959
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 0
+    object lbTitle: TLabel
+      Left = 0
+      Height = 80
+      Top = 0
+      Width = 451
+      Align = alClient
+      Alignment = taCenter
+      Caption = 'Tarefa'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -48
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      Layout = tlCenter
+      ParentFont = False
+    end
+  end
+  object pnBody: TPanel
+    Left = 0
+    Height = 237
+    Top = 80
+    Width = 451
+    Align = alClient
+    BevelOuter = bvNone
+    ClientHeight = 237
+    ClientWidth = 451
+    TabOrder = 1
+    object edID: TEdit
+      AnchorSideLeft.Control = pnBody
+      AnchorSideTop.Control = pnBody
+      AnchorSideRight.Control = pnBody
+      AnchorSideRight.Side = asrBottom
+      Left = 20
+      Height = 23
+      Top = 30
+      Width = 411
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 20
+      BorderSpacing.Top = 30
+      BorderSpacing.Right = 20
+      ReadOnly = True
+      TabOrder = 0
+      OnKeyDown = edIDKeyDown
+    end
+    object edDescription: TEdit
+      AnchorSideLeft.Control = pnBody
+      AnchorSideTop.Control = edID
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = pnBody
+      AnchorSideRight.Side = asrBottom
+      Left = 20
+      Height = 23
+      Top = 83
+      Width = 411
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 20
+      BorderSpacing.Top = 30
+      BorderSpacing.Right = 20
+      TabOrder = 1
+      OnKeyDown = edDescriptionKeyDown
+    end
+    object cbStatus: TComboBox
+      AnchorSideLeft.Control = pnBody
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = pnBody
+      AnchorSideRight.Side = asrBottom
+      Left = 20
+      Height = 23
+      Top = 190
+      Width = 411
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 20
+      BorderSpacing.Top = 30
+      BorderSpacing.Right = 20
+      ItemHeight = 15
+      ItemIndex = 0
+      Items.Strings = (
+        'Pendente'
+        'Concluída'
+      )
+      ReadOnly = True
+      Style = csDropDownList
+      TabOrder = 3
+      Text = 'Pendente'
+    end
+    object lbID: TLabel
+      AnchorSideBottom.Control = edID
+      AnchorSideBottom.Side = asrBottom
+      Left = 21
+      Height = 15
+      Top = 13
+      Width = 39
+      Anchors = [akLeft, akBottom]
+      BorderSpacing.Bottom = 25
+      Caption = 'Código'
+    end
+    object lbDescription: TLabel
+      AnchorSideBottom.Control = edDescription
+      AnchorSideBottom.Side = asrBottom
+      Left = 21
+      Height = 15
+      Top = 66
+      Width = 51
+      Anchors = [akLeft, akBottom]
+      BorderSpacing.Bottom = 25
+      Caption = 'Descrição'
+    end
+    object lbDate: TLabel
+      AnchorSideBottom.Control = deDate
+      AnchorSideBottom.Side = asrBottom
+      Left = 21
+      Height = 15
+      Top = 119
+      Width = 24
+      Anchors = [akLeft, akBottom]
+      BorderSpacing.Bottom = 25
+      Caption = 'Data'
+    end
+    object lbStatus: TLabel
+      AnchorSideBottom.Control = cbStatus
+      AnchorSideBottom.Side = asrBottom
+      Left = 21
+      Height = 15
+      Top = 173
+      Width = 32
+      Anchors = [akLeft, akBottom]
+      BorderSpacing.Bottom = 25
+      Caption = 'Status'
+    end
+    object deDate: TDateEdit
+      AnchorSideLeft.Control = pnBody
+      AnchorSideTop.Control = edDescription
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = pnBody
+      AnchorSideRight.Side = asrBottom
+      Left = 20
+      Height = 23
+      Top = 136
+      Width = 411
+      CalendarDisplaySettings = [dsShowHeadings, dsShowDayNames]
+      DateOrder = doNone
+      ButtonWidth = 23
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 20
+      BorderSpacing.Top = 30
+      BorderSpacing.Right = 20
+      NumGlyphs = 1
+      MaxLength = 0
+      TabOrder = 2
+      OnKeyDown = deDateKeyDown
+    end
+  end
+  object pnFooter: TPanel
+    Left = 0
+    Height = 60
+    Top = 317
+    Width = 451
+    Align = alBottom
+    BevelOuter = bvNone
+    ClientHeight = 60
+    ClientWidth = 451
+    Color = 13240959
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 2
+    object sbSave: TSpeedButton
+      AnchorSideTop.Control = pnFooter
+      AnchorSideRight.Control = pnFooter
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Control = pnFooter
+      AnchorSideBottom.Side = asrBottom
+      Left = 321
+      Height = 40
+      Top = 10
+      Width = 120
+      Align = alRight
+      BorderSpacing.Top = 10
+      BorderSpacing.Right = 10
+      BorderSpacing.Bottom = 10
+      Caption = 'Salvar'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -16
+      Font.Name = 'Segoe UI Semibold'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentFont = False
+      OnClick = sbSaveClick
+    end
+    object sbCancel: TSpeedButton
+      AnchorSideTop.Control = pnFooter
+      AnchorSideRight.Control = sbSave
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Control = pnFooter
+      AnchorSideBottom.Side = asrBottom
+      Left = 191
+      Height = 40
+      Top = 10
+      Width = 120
+      Align = alRight
+      BorderSpacing.Top = 10
+      BorderSpacing.Right = 10
+      BorderSpacing.Bottom = 10
+      Caption = 'Cancelar'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -16
+      Font.Name = 'Segoe UI Semibold'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentFont = False
+      OnClick = sbCancelClick
+    end
+  end
+end

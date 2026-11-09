@@ -1,0 +1,24 @@
+object DM: TDM
+  OnCreate = DataModuleCreate
+  OldCreateOrder = False
+  Height = 277
+  HorizontalOffset = 371
+  VerticalOffset = 250
+  Width = 268
+  object ZConnection: TZConnection
+    ControlsCodePage = cCP_UTF8
+    Properties.Strings = (
+      'RawStringEncoding=DB_CP'
+    )
+    DisableSavepoints = False
+    Port = 0
+    Left = 40
+    Top = 16
+  end
+  object ZQuery: TZQuery
+    Connection = ZConnection
+    Params = <>
+    Left = 128
+    Top = 16
+  end
+end

@@ -1,0 +1,17 @@
+backup/
+lib/
+.VSCodeCounter
+*.exe
+*.so
+*.dylib
+*.compiled
+*.ppu
+*.o
+*.a
+*.rst
+*.rst~
+*.bak
+*.dbg
+*.res
+*.log
+*.err

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Debug">
+      <Item Name="Release">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="LazarusCleanArch"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <OtherUnitFiles Value="src\Features\Tasks\Presentation\Views;src\Features\Tasks\Domain\Entities;src\Features\Tasks\Domain\UseCases;src\Features\Tasks\Domain\Repositories;src\Features\Tasks\Presentation\Details\Views;src\Features\Tasks\Presentation\List\Views;src\Features\Tasks\Domain\Enums;src\Features\Tasks\Presentation\Details\Enums;src\Shared\Enums;src\Features\Tasks\Data\Repositories;src\Features\Tasks\Data\DataSources;src\Shared\DataModule;src\Shared\ContainerDI;src\Features\Tasks\Presentation\Mappers;src\Shared\Mappers;src\Features\Tasks\Data\Mappers"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+              <RunWithoutDebug Value="True"/>
+              <DebugInfoType Value="dsDwarf3"/>
+              <UseLineInfoUnit Value="False"/>
+            </Debugging>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+        </CompilerOptions>
+      </Item>
+    </BuildModes>
+    <Units>
+      <Unit>
+        <Filename Value="LazarusCleanArch.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="5"/>
+        <CursorPos X="48" Y="15"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\Features\Tasks\Presentation\List\Views\TasksListView.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frTasksList"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="86"/>
+        <CursorPos X="16" Y="101"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\Features\Tasks\Domain\Entities\TasksEntity.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="26" Y="16"/>
+        <UsageCount Value="32"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\Features\Tasks\Domain\UseCases\TasksUseCase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="7"/>
+        <CursorPos X="9" Y="17"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\Features\Tasks\Domain\Repositories\TasksRepository.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="22" Y="12"/>
+        <UsageCount Value="32"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\Features\Tasks\Presentation\Details\Views\TasksDetailsView.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frTasksDetails"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="38"/>
+        <CursorPos X="39" Y="45"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\Features\Tasks\Domain\Enums\TasksStatusEnum.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="23" Y="13"/>
+        <UsageCount Value="32"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\Shared\Enums\TypeSaveEnum.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="10" Y="16"/>
+        <UsageCount Value="32"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\Features\Tasks\Data\Repositories\TasksRepositoryImpl.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="17"/>
+        <CursorPos X="11" Y="4"/>
+        <UsageCount Value="32"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\Features\Tasks\Data\DataSources\TasksDataSourceSQL.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="21" Y="15"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\Shared\DataModule\DataModule.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DM"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="33"/>
+        <CursorPos X="24" Y="69"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\Shared\ContainerDI\ContainerDI.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="24" Y="12"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\Shared\Mappers\TasksStatusEnumMapper.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="44" Y="6"/>
+        <UsageCount Value="32"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\Features\Tasks\Data\Mappers\TasksStatusEnumDBMapper.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\fgl.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1103"/>
+        <CursorPos X="19" Y="1132"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\Features\Tasks\Presentation\Details\Enums\TasksTypeSaveEnum.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="2" Y="3"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\AppData\Local\lazarus\onlinepackagemanager\packages\zeosdbo\src\component\ZDataset.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="72"/>
+        <CursorPos X="20" Y="91"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\AppData\Local\lazarus\onlinepackagemanager\packages\zeosdbo\src\component\ZAbstractRODataset.pas"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="673"/>
+        <CursorPos X="37" Y="682"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\AppData\Local\lazarus\onlinepackagemanager\packages\zeosdbo\src\component\ZDatasetParam.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="942"/>
+        <CursorPos X="3" Y="961"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\classes\classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="503"/>
+        <CursorPos X="3" Y="522"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\packages\fcl-db\src\base\db.pas"/>
+        <UnitName Value="DB"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2028"/>
+        <CursorPos X="10" Y="2061"/>
+        <UsageCount Value="13"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\Details\Views\TasksDetailsView.pas"/>
+        <Caret Line="163" TopLine="124"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\List\Views\TasksListView.pas"/>
+        <Caret Line="38" Column="20" TopLine="36"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\List\Views\TasksListView.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\Details\Views\TasksDetailsView.pas"/>
+        <Caret Line="117" Column="14" TopLine="88"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\Details\Views\TasksDetailsView.pas"/>
+        <Caret Line="40" Column="25" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\Details\Views\TasksDetailsView.pas"/>
+        <Caret Line="122" Column="17" TopLine="98"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\Details\Views\TasksDetailsView.pas"/>
+        <Caret Line="117" Column="15" TopLine="98"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\Details\Views\TasksDetailsView.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\Details\Views\TasksDetailsView.pas"/>
+        <Caret Line="36" Column="5" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\Details\Views\TasksDetailsView.pas"/>
+        <Caret Line="70" Column="15" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\Details\Views\TasksDetailsView.pas"/>
+        <Caret Line="91" Column="80" TopLine="69"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\Details\Views\TasksDetailsView.pas"/>
+        <Caret Line="122" Column="11" TopLine="103"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\Details\Views\TasksDetailsView.pas"/>
+        <Caret Line="40" Column="26" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\Details\Views\TasksDetailsView.pas"/>
+        <Caret Line="135" Column="32" TopLine="121"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\Details\Views\TasksDetailsView.pas"/>
+        <Caret Line="156" Column="49" TopLine="124"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\Details\Views\TasksDetailsView.pas"/>
+        <Caret Line="139" Column="16" TopLine="132"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\Details\Views\TasksDetailsView.pas"/>
+        <Caret Line="111" TopLine="107"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\Details\Views\TasksDetailsView.pas"/>
+        <Caret Line="120" Column="20" TopLine="108"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\List\Views\TasksListView.pas"/>
+        <Caret Line="14" Column="30"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\List\Views\TasksListView.pas"/>
+        <Caret Line="173" Column="23" TopLine="167"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\Details\Views\TasksDetailsView.pas"/>
+        <Caret Line="127" Column="23" TopLine="108"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\List\Views\TasksListView.pas"/>
+        <Caret Line="10" Column="24"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\Details\Views\TasksDetailsView.pas"/>
+        <Caret Line="9" Column="73"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\List\Views\TasksListView.pas"/>
+        <Caret Line="10" Column="26"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Data\DataSources\TasksDataSourceSQL.pas"/>
+        <Caret Line="15" Column="21"/>
+      </Position>
+      <Position>
+        <Filename Value="LazarusCleanArch.lpr"/>
+        <Caret Line="16" Column="28"/>
+      </Position>
+      <Position>
+        <Filename Value="LazarusCleanArch.lpr"/>
+        <Caret Line="15" Column="48"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\List\Views\TasksListView.pas"/>
+        <Caret Line="77" Column="16" TopLine="57"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\List\Views\TasksListView.pas"/>
+        <Caret Line="109" Column="15" TopLine="86"/>
+      </Position>
+      <Position>
+        <Filename Value="src\Features\Tasks\Presentation\List\Views\TasksListView.pas"/>
+        <Caret Line="101" Column="16" TopLine="86"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
